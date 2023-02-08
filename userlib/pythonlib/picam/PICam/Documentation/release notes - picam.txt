@@ -1,0 +1,622 @@
+===================================
+5.8.4.2003 - March 2020
+===================================
+
+New Features
+- NIRvana HS supported.
+- SOPHIA 2048 13.5µm-2 supported.
+- Added feature to reduce internal library dependencies to maximize compatibility scenarios.
+
+Improvements
+- Improved device detection for FERGIE lasers.
+
+
+
+
+===================================
+5.7.1.1903 - March 2019
+===================================
+
+New Features
+- FERGIE 532 laser supported.
+
+Improvements
+- PI-MTE cameras are now properly detected.
+
+
+
+
+===================================
+5.6.1.1812 - December 2018
+===================================
+
+New Features
+- SOPHIA 4096 supported.
+
+
+
+
+===================================
+5.5.1.1810 - October 2018
+===================================
+
+New Features
+- FERGIE-ISO-81 supported.
+
+Improvements
+- USB3 cameras have more accurate readout time calculations; particularly at high speeds.
+- ProEM-HS 1KB-10µm image quality improved.
+- USB cameras no longer have the potential to crash Windows if plugged into the wrong port on newer machines.
+- PIXIS cameras will now work on Linux machines transferring small USB packet sizes.
+
+
+
+
+===================================
+5.4.1.1804 - April 2018
+===================================
+
+Improvements
+- Windows Secure Boot supported.
+- USB3 cameras will no longer hang an application if acquiring for an extended period of time with a fast frame rate.
+- PI-MAX4 2048 demo cameras now have correct vertical shift rate.
+
+
+
+
+===================================
+5.3.3.1802 - February 2018
+===================================
+
+New Features
+- PI-MTE3 supported.
+
+Improvements
+- Fixed possible data corruption when acquiring data in kinetics with time stamps in Linux.
+
+
+
+
+===================================
+5.2.3.1711 - November 2017
+===================================
+
+New Features
+- USB3 and PIXIS cameras now supported in Redhat Enterprise Linux v7.x.
+- FERGIE now reports failure in the grating drive.
+
+Improvements
+- KURO now supports exposure times in 50 microsecond increments.
+- NIRvana-LN now supports a minimum NDRO period of 0.5 seconds when running 250 kHz and 1 millisecond increments always.
+- Gigabit Ethernet cameras properly handle long exposure times.
+
+
+
+
+===================================
+5.1.1.1709 - September 2017
+===================================
+
+New Features
+- BLAZE 100B supported.
+- BLAZE 400HR supported.
+- BLAZE 100HR supported.
+- BLAZE 400BR LD supported.
+- SOPHIA 2048 13.5µm supported.
+
+Improvements
+- FERGIE 256/FT camera's sensor temperature set point can now be set lower to -60°C.
+- KURO cameras can now reach higher frame rates using small regions of interest (for newer cameras going forward).
+- PI-MAX4 1024i will now acquire correctly in the scenario where pre-trigger was previously used before switching to internal triggering.
+
+
+
+
+===================================
+5.0.1.1705 - May 2017
+===================================
+
+BREAKING CHANGES
+- Usage of left/right margins in sensor information/layout has changed for a few cameras in order to be consistent across all cameras. See Appendix E of the PICam 5.x Programmers Manual (found on the Princeton Instruments FTP site, or the documentation folder of your PICam 5.x install).
+
+New Features
+- BLAZE supported.
+- KURO 2048 and 1608 supported.
+
+
+
+
+===================================
+4.2.3.1702 - February 2017
+===================================
+
+New Features
+- KURO supported.
+
+Improvements
+- Gigabit Ethernet camera detection has improved for scenarios using multiple cameras with multiple network cards.
+- Fixed issue where some GigE cameras with slow ADC rates and particular ROIs would cause LightField to incorrectly stop the experiment prematurely. 
+- Fixed readout time for NIRvana and NIRvana-LN.
+
+
+
+
+===================================
+4.1.2.1701 - January 2017
+===================================
+
+New Features
+- FERGIE supported.
+- FERGIE accessories supported.
+
+Improvements
+- ProEM-HS EM gain calibration accuracy improved in high speeds.
+- USB3 cameras no longer crash if reconnected to a different USB port when the camera is open.
+
+
+
+
+===================================
+4.0.4.1611 - November 2016
+===================================
+
+Improvements
+- SOPHIA potential hardware failures will now always be detected even after the USB3 cable has been reconnected.
+
+
+
+
+===================================
+4.0.3.1609 - September 2016
+===================================
+
+BREAKING CHANGES
+- Gigabit Ethernet cameras require a firmware update to be detected and used.
+- Gigabit Ethernet cameras require modifying a time out (via an environment variable) when debugging.
+
+New Features
+- ProEM-HS 1KB-10µm supported.
+- SOPHIA supported.
+- Multiple regions of interest can now be set in dual port readout.
+- Added better support for parameters that change due to external influences (e.g. sensor temperature) via waitable status parameters and extrinsic dynamics.
+- Added the ability to restore the camera to default parameter values directly.
+- Demo cameras now simulate sensor temperature changes (inaccurately) to ease development without hardware.
+- Added trace versions of some libraries to ease troubleshooting unexpected errors.
+
+Improvements
+- Windows 10 is now supported.
+- Gigabit Ethernet cameras have less overhead between acquisitions.
+- NIRvana-LN now has improved image quality when run at 250 kHz.
+- PI-MAX4 512EM pixel pitch has potential for better accuracy.
+- More data acquisition errors added.
+- Committing and refreshing all parameters now update all read-only parameters as well.
+
+
+
+
+===================================
+3.3.1.1510 - October 2015
+===================================
+
+Bug Fixes
+- PI-MAX4 external trigger no longer times out during data acquisition.
+
+
+
+
+===================================
+3.3.0.1509 - September 2015
+===================================
+
+Bug Fixes
+- PI-MTE now runs connected to a controller that supports 2 MHz ADC Speed.
+- PI-MTE now properly recognizes 50 kHz ADC Speed.
+- PI-MAX4 AUX delay is now correct for MCP Gating cameras.
+- PIXIS cameras are correctly reprogrammed if power cycled while open.
+- Gigabit Ethernet cameras are correctly reprogrammed if power cycled while open.
+- Fixed potential crash when opening multiple cameras in multiple application instances immediately after they are detected.
+- Fixed crash when using two different versions of the library and connecting a camera only supported in the newer version.
+
+Improvements
+- Gigabit Ethernet cameras report more accurate data acquisition errors.
+
+
+
+
+===================================
+3.2.0.1507 - July 2015
+===================================
+
+Bug Fixes
+- ProEM(+) 1600 default adc speed corrected to 100 kHz.
+- ProEM original cameras can be opened again.
+
+
+
+
+===================================
+3.1.0.1506 - June 2015
+===================================
+
+Bug Fixes
+- PI-MTE now properly waits for triggers in readout per trigger.
+- PI-MTE can now acquire a very small region of interest (less than 256 pixels).
+- Quad-RO cleaning now cleans the entire row.
+- Quad-RO data is correctly decoded.
+
+
+
+
+===================================
+3.0.6.1504 - April 2015
+===================================
+
+New Features
+- 32-bit Windows supported via WoW64.
+- Added notification of camera state transitions during acquisition (i.e. beginning/ending of readout) for cameras that support it.
+- PI-MTE supported.
+- ProEM-HS 1024 supported.
+- PyLoN 2KF supported.
+- PI-MAX4 1024i pre-trigger features added (for newer cameras going forward).
+
+Improvements
+- Sped up time to open a camera after initial open.
+
+
+
+
+===================================
+2.10.1.1411 - November 2014
+===================================
+
+New Features
+- ProEM-HS supported.
+
+Improvements
+- PI-MAX4 1024EM family kinetic frame rates improved.
+- Improved bias stability for new Pixis 1300x1340 cameras using the new configuration.
+
+
+
+
+===================================
+2.9.0.1409 - September 2014
+===================================
+
+New Features
+- PyLon 1300R and 2048F supported (note: this invalidates software demo cameras of this type).
+
+Improvements
+- Gigabit eithernet cameras' readout time accuracy for kinetics improved.
+
+
+
+
+===================================
+2.8.1.1408 - August 2014
+===================================
+
+New Features
+- NIRvana-LN supported.
+- PyLon 2048B supported (note: this invalidates software demo cameras of this type).
+
+Improvements
+- PI-MAX4 1024EM readout time accuracy improved.
+- Pylon-IR readout time accuracy improved.
+- ProEM(+) EM gain calibration accuracy improved.
+- PIXIS image quality improved for long exposure times.
+
+
+
+
+===================================
+2.7.2.1403 - March 2014
+===================================
+
+Improvements
+- NIRvana SI renamed to NIRvana ST.
+
+
+
+
+===================================
+2.7.1.1402 - February 2014
+===================================
+
+New Features
+- PI-MAX4 1024EM family supported.
+- PI-MAX4 2048 family supported.
+- NIRvana SI supported.
+
+Bug Fixes
+- PyLoN cameras configured to drive shutters now default to the appropriate shutter close delay.
+- PIXIS 2048 now handles all custom cleaning settings correctly.
+- Gigabit eithernet cameras now have correct time stamps for very long exposure times (i.e. several hours).
+
+
+
+
+===================================
+2.6.0.1309 - September 2013
+===================================
+
+New Features
+- PI-MAX4 1024f supported.
+
+Improvements
+- PI-MAX4 readout rate calculations have improved in accuracy.
+- ProEM readout rate calculations have improved in accuracy.
+
+
+
+
+===================================
+2.5.4.1307 - July 2013
+===================================
+
+Improvements
+- PI-MAX4 readout rate calculations have improved in accuracy.
+- PI-MAX4 external trigger threshold has improved in accuracy.
+- Readout time has improved in accuracy for kinetics, spectra kinetics and DIF readout control modes.
+
+Bug Fixes
+- PI-MAX4 RF cameras now reliably stay in phase.
+- PI-MAX4 EM cameras could potentially return an unexpected error when changing readout control modes.
+
+
+
+
+===================================
+2.5.2.1304 - April 2013
+===================================
+
+New Features
+- PyLoN-IR 2.2 supported.
+- PI-MAX4 512EM family supported.
+
+Improvements
+- PIXIS image quality improved in the first column with horizontal binning.
+- PyLoN image quality improved in kinetics with vertical binning.
+- ProEM(+) cameras can now clean before exposure when acquisition is started via single trigger.
+- PI-MAX4 readout time calculations improved.
+- Gigabit Ethernet cameras will now be configured to use EBUS Universal driver instead of the High Performance driver.
+- Windows 8 is now supported.
+
+Bug Fixes
+- ProEM(+) spectra kinetics region was off by two rows compared to full frame.
+- ProEM(+) can now correctly overscan when using electron multiplication.
+- PyLoN 1300 serial register cleaning is irrelevant when pixel bias correction is enabled.
+
+
+
+
+===================================
+2.4.2.1301 - January 2013
+===================================
+
+New Features
+- ProEM+ 1600 vertical shift rates changed to improve bias flatness.
+
+Bug Fixes
+- PyLoN single row kinetics corrected.
+
+
+
+
+===================================
+2.4.1.1212 - December 2012
+===================================
+
+New Features
+- Gigabit ethernet cameras now supported as Linux libraries.
+
+
+
+
+===================================
+2.4.0.1212 - December 2012
+===================================
+
+Bug Fixes
+- PI-MAX3/4 gating accuracy improved around minimum gate delay in some cases.
+
+
+
+
+===================================
+2.3.0.1209 - September 2012
+===================================
+
+New Features
+- PyLoN-IR supported.
+- PyLoN 2K supported.
+- PyLoN 256 vertical shift rates changed to improve bias flatness.
+- PI-MAX4 SR and HRf photocathodes supported.
+
+Bug Fixes
+- Fixed hang caused by acquiring thousands of single-frame acquisitions in a tight loop with demo cameras.
+- Fixed possible crash if library is dynamically unloaded immediately after being uninitialized.
+
+
+
+
+===================================
+2.2.6.1208 - August 2012
+===================================
+
+New Features
+- PI-MAX4 1024x256 supported  (note: this invalidates software demo cameras of type PI-MAX4 1024s).
+- PI-MAX4 picosecond gating supported.
+- ProEM and PyLoN clean until trigger feature is optimized for speed to minimize smearing.
+
+Bug Fixes
+- PIMAX4-RF now properly reprogrammed when power cycled while open.
+
+
+
+
+===================================
+2.2.5.1206 - June 2012
+===================================
+
+New Features
+- PI-MAX4 1024s supported  (note: this invalidates software demo cameras of type PI-MAX4 1024x256).
+- PyLoN 256 supported (note: this invalidates software demo cameras of this type).
+
+Bug Fixes
+- ProEM 1024 and ProEM+ 1024 were shifted by four rows when operating in Frame Transfer.
+- DIF Shift per Trigger now operates properly when triggered during the first phosphor decay delay of a DIF pair.
+- PIMAX4-RF now properly handles sequential phase gate step iterations greater than one in all cases.
+
+
+
+
+===================================
+2.2.4.1205 - May 2012
+===================================
+
+New Features
+- ProEM+ 1024 supported.
+- PyLoN 1300 supported (note: this invalidates software demo cameras of this type).
+
+Improvements
+- ProEM+ 512 performance improved running low noise at 5 MHz.
+- ProEM+ 1600 readout rate improved running EM with customized sensor geared for high spectral rates.
+
+Bug Fixes
+- Fixed crash caused by starting an acquisition that requires a circular buffer without one being set.
+
+
+
+
+===================================
+2.2.3.1205 - May 2012
+===================================
+
+New Features
+- PI-MAX4 supported (including RF Modulation).
+- ProEM+ supported.
+- PI-MAX gate tracking matches hardware precision of ten picoseconds.
+- Added OEM specific functionality to erase residual charge for cameras that support it.
+
+Improvements
+- PI-MAX SyncMaster and modulation output signal (user RF) disable when the camera is closed.
+- ProEM readout accounts for extended register size using customized sensor sizes in Frame Transfer EM.
+
+Bug Fixes
+- Fixed small memory leaks after closing a gigabit ethernet camera.
+- PI-MAX3 slow gating cameras no longer have potential to fail to open due to gate width calibration.
+- PI-MAX3 second AUX delay fixed for Readout per Trigger DIF.
+
+
+
+
+===================================
+2.1.3.1201 - January 2012
+===================================
+
+Improvements
+- PyLoN performance improved.
+
+Bug Fixes
+- ProEM EM gain fixed.
+- ProEM and PyLoN no longer have potential bias issues with pixel bias correction disabled.
+- PyLoN no longer has potential shutter fault when enabling/disabling the shutter.
+
+
+
+
+===================================
+2.1.2.1112 - December 2011
+===================================
+
+New Features
+- PIoNIR supported.
+- ProEM and PyLoN can now start on single trigger.
+- ProEM 1600 now supports Shutter Mode of Open Before Trigger when in Full Frame Readout Mode.
+- Access to pixel defect map for cameras that support it (advanced).
+
+Improvements
+- PyLoN performance improved.
+- PI-MAX3 provides warnings/errors against repetition rate limits.
+- PI-MAX3 1024i now defaults to single port, 8 MHz speed, and 5 Hz trigger frequency.
+- ProEM 1600 Final Section Height default value changed to 4.
+
+Bug Fixes
+- ProEM 1600 images properly in high speed, low noise.
+- ProEM 1600 images properly when changing only vertical shift rate in EM.
+- PIMAX3 is initialized with the proper trigger polarity.
+- PIMAX3 sub-nanosecond gating properly gates between one and three nanosecond gate widths.
+
+
+
+
+===================================
+2.0.6.1111 - November 2011
+===================================
+
+Improvements
+- PyLoN performance improved.
+
+Bug Fixes
+- ProEM 1600 permits open-before-trigger shuttering in full frame readout.
+
+
+
+
+===================================
+2.0.5.1108 - August 2011
+===================================
+
+New Features
+- PI-MAX3 and PyLoN supported.
+- PIXIS 1300BR and 2048BR eXcelon added.
+- ProEM EM gain calibration supported.
+- ProEM allows disabling of pixel bias correction.
+- ProEM 512 and 1024 allow control over serial register cleaning.
+- ProEM 1600 allows normal shutter control.
+- ProEM 1600 warns against inappropriate vertical shift rates based on adc quality.
+- Added online readout rate which calculates fastest possible online rate for current settings.
+- Added ability to clear readout count online.
+- Added ability to get camera defaults.
+- Added ability to associate arbitrary user-state with a camera.
+
+Breaking Changes
+- ProEM and Quad-RO use rising/falling edges for trigger determination.
+- ProEM 1600 defaults to low noise, slowest readout and normal shutter control.
+
+Improvements
+- ProEM has better readout rate measurements.
+- ProEM calculates readout rate more accurately when horizontally binning.
+- ProEM 512 and 1024 have better high speed spectral readout rate.
+- Improved region of interest validation to report related parameters more intuitively.
+
+Bug Fixes
+- ProEM are detected properly for a large number of cameras.
+- ProEM properly acquire any readout count.
+- ProEM properly handle disconnection while acquiring.
+- ProEM metadata controls properly update calculated readout time when changed.
+- ProEM spectra kinetics frame rate calculation is more accurate.
+- ProEM readout rate calculation is more accurate with non-zero shutter closing delays.
+- PIXIS are detected properly when switching ports.
+- PIXIS and Quad-RO correctly report back multiple readouts at once when lagging.
+- Fixed relevance for serial register cleaning.
+
+
+
+
+===================================
+1.0.1.1103 - March 2011
+===================================
+
+Bug Fixes
+- ProEM have proper column balancing.
+
+
+
+
+===================================
+1.0.0.1011 - November 2010
+===================================
+
+Initial Release
