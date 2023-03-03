@@ -37,7 +37,7 @@ s, ms, us, ns = 1.0, 1e-3, 1e-6, 1e-9
 
 PulseBlasterUSB(name='pulseblaster_0', board_number=1, time_based_stop_workaround=True, time_based_stop_workaround_extra_time=0.5)
 
-Trigger(name='flea2_trigger',        parent_device=pulseblaster_0.direct_outputs, connection = 'flag 0', trigger_edge_type = 'rising')
+Trigger(name='flea2_trigger',        parent_device=pulseblaster_0.direct_outputs, connection = 'flag 3', trigger_edge_type = 'rising')
 Trigger(name='andor_camera_trigger', parent_device=pulseblaster_0.direct_outputs, connection = 'flag 1', trigger_edge_type = 'rising')
 Trigger(name='flea3_trigger',        parent_device=pulseblaster_0.direct_outputs, connection = 'flag 2', trigger_edge_type = 'rising')
 
@@ -48,27 +48,27 @@ Trigger(name='flea3_trigger',        parent_device=pulseblaster_0.direct_outputs
 
 
 
-DigitalOut(name='pb_3',  parent_device=pulseblaster_0.direct_outputs, connection = 'flag 3')
+# DigitalOut(name='pb_3',  parent_device=pulseblaster_0.direct_outputs, connection = 'flag 3')
 DigitalOut(name='pb_4',  parent_device=pulseblaster_0.direct_outputs, connection = 'flag 4', inverted=True)
 DigitalOut(name='pb_5',  parent_device=pulseblaster_0.direct_outputs, connection = 'flag 5')
 DigitalOut(name='pb_6',  parent_device=pulseblaster_0.direct_outputs, connection = 'flag 6')
 DigitalOut(name='pb_7',  parent_device=pulseblaster_0.direct_outputs, connection = 'flag 7')
 DigitalOut(name='pb_8',  parent_device=pulseblaster_0.direct_outputs,    connection='flag 8')
-DigitalOut(name='pb_9',  parent_device=pulseblaster_0.direct_outputs, connection = 'flag 9')
+# DigitalOut(name='pb_9',  parent_device=pulseblaster_0.direct_outputs, connection = 'flag 9')
 DigitalOut(name='pb_10', parent_device=pulseblaster_0.direct_outputs, connection = 'flag 10')
 DigitalOut(name='pb_11', parent_device=pulseblaster_0.direct_outputs, connection = 'flag 11')
 DigitalOut(name='pb_12', parent_device=pulseblaster_0.direct_outputs, connection = 'flag 12')
-DigitalOut(name='pb_13', parent_device=pulseblaster_0.direct_outputs, connection = 'flag 13')
-DigitalOut(name='pb_14', parent_device=pulseblaster_0.direct_outputs, connection = 'flag 14')
+# DigitalOut(name='pb_13', parent_device=pulseblaster_0.direct_outputs, connection = 'flag 13')
+# DigitalOut(name='pb_14', parent_device=pulseblaster_0.direct_outputs, connection = 'flag 14')
 DigitalOut(name='pb_15', parent_device=pulseblaster_0.direct_outputs, connection = 'flag 15')
 DigitalOut(name='pb_16', parent_device=pulseblaster_0.direct_outputs, connection = 'flag 16')
 DigitalOut(name='pb_17', parent_device=pulseblaster_0.direct_outputs, connection = 'flag 17')
 
+DigitalOut(name='RbImgProbe', parent_device=pulseblaster_0.direct_outputs, connection='flag 9') 
 # ClockLine(name='TCPDH_clockline',      pseudoclock=pulseblaster_0.pseudoclock, connection='flag 18')
-ClockLine(name='novatech_dds_1_clock', pseudoclock=pulseblaster_0.pseudoclock, connection='flag 19') # Unconneted
-ClockLine(name='novatech_dds_2_clock', pseudoclock=pulseblaster_0.pseudoclock, connection='flag 20') # Unconneted
-ClockLine(name='ni_4_clock', pseudoclock=pulseblaster_0.pseudoclock, connection='flag 19')
-ClockLine(name='ni_3_clock', pseudoclock=pulseblaster_0.pseudoclock, connection='flag 20')
+ClockLine(name='novatech_dds_1_clock', pseudoclock=pulseblaster_0.pseudoclock, connection='flag 13') # Unconneted
+ClockLine(name='novatech_dds_2_clock', pseudoclock=pulseblaster_0.pseudoclock, connection='flag 14') 
+ClockLine(name='ni_3_clock',            pseudoclock=pulseblaster_0.pseudoclock, connection='flag 20')
 ClockLine(name='ni_2_clock',	       pseudoclock=pulseblaster_0.pseudoclock, connection='flag 21')
 ClockLine(name='ni_1_clock',           pseudoclock=pulseblaster_0.pseudoclock, connection='flag 22')
 
@@ -181,11 +181,11 @@ NI_PCI_6733(name='ni_2', parent_device=ni_2_clock, clock_terminal='/Dev2/PFI0', 
 
 AnalogOut(name='Dev2_AO0', parent_device=ni_2, connection='ao0') #,
 #           unit_conversion_class=AOMVCO,                     unit_conversion_parameters={'m':-21.57549*10**6, 'b':61.48349*10**6, 'magnitudes':['k','M']})
-AnalogOut(name='Dev2_AO1', parent_device=ni_2, connection='ao1')
+AnalogOut(name='Coil_Current_Control_1', parent_device=ni_2, connection='ao1')
 
-AnalogOut(name='Dev2_AO2', parent_device=ni_2, connection='ao2') #,
+AnalogOut(name='Coil_Current_Control_2', parent_device=ni_2, connection='ao2') #,
 #           unit_conversion_class=AOMVCO,                     unit_conversion_parameters={'m':-21.57549*10**6, 'b':61.48349*10**6, 'magnitudes':['k','M']})
-AnalogOut(name='Dev2_AO3', parent_device=ni_2, connection='ao3')
+AnalogOut(name='Coil_Current_Control_3', parent_device=ni_2, connection='ao3')
 
 
 DigitalOut(name='Dev2_DO0', parent_device=ni_2, connection='port0/line0')
@@ -200,20 +200,35 @@ DigitalOut(name='Dev2_DO7', parent_device=ni_2, connection='port0/line7')
 # # Trigger(   name='GH_camera_trigger',        parent_device=ni_1, connection='port0/line2',  trigger_edge_type = 'falling')
 
 
-################################################################################
-#   NI device 3
-################################################################################
+###############################################################################
+#    NI device 3
+###############################################################################
 
-# NI_USB_6363(name='ni_3', parent_device=ni_3_clock, clock_terminal='', MAX_name = '')
+NI_PCI_6733(name='ni_3', parent_device=ni_3_clock, clock_terminal='/Dev3/PFI0', MAX_name = 'Dev3')
+
+AnalogOut(name='Dev3_AO0', parent_device=ni_2, connection='ao0') #,
+#           unit_conversion_class=AOMVCO,                     unit_conversion_parameters={'m':-21.57549*10**6, 'b':61.48349*10**6, 'magnitudes':['k','M']})
+
+
+DigitalOut(name='Dev3_DO0', parent_device=ni_2, connection='port0/line0')
+
+
+# # Trigger(   name='GH_camera_trigger',        parent_device=ni_1, connection='port0/line2',  trigger_edge_type = 'falling')
 
 ################################################################################
 #   NI device 4
 ################################################################################
 
+# NI_USB_6363(name='ni_3', parent_device=ni_3_clock, clock_terminal='', MAX_name = '')
+
+################################################################################
+#   NI device 5
+################################################################################
+
 # NI_USB_6363(name='ni_4', parent_device=ni_4_clock, clock_terminal='', MAX_name = '')
 
 ################################################################################
-#   NI device 3
+#   NI device 6
 ################################################################################
 
 # NI_PXIe_6361(name='ni_3', parent_device=pulseblaster_0_ni_2_clock, clock_terminal='/Dev2/PFI0', MAX_name = 'Dev2')
@@ -295,61 +310,118 @@ flea2_fw_manual_camera_attributes = {
 
 flea2_fw_manual_camera_attributes = {**flea2_fw_aquisition_attributes, **flea2_fw_manual_camera_attributes}
 
-flea3_fw_acquisition_attributes = {
-    'AcquisitionAttributes::Height': 488,
-    'AcquisitionAttributes::OffsetX': 0,
-    'AcquisitionAttributes::OffsetY': 0,
-    'AcquisitionAttributes::OutputImageType': 'Auto',
-    'AcquisitionAttributes::PacketSize': 5184,
-    'AcquisitionAttributes::PixelFormat': 'Mono 8',
-    'AcquisitionAttributes::Speed': '800 Mbps',
-    'AcquisitionAttributes::Timeout': 10000,
-    'AcquisitionAttributes::VideoMode': 'Format 7, Mode 0, 648 x 488',
-    'AcquisitionAttributes::Width': 648
+Flea3_USB_1_acquisition_attributes = {
+    'ImageFormatControl::Height': 1024,
+    'OffsetX': 0,
+    'OffsetY': 0,
+    'OutputImageType': 'Auto',
+    # 'PacketSize': 5184,
+    'PixelFormat': 'Mono 8',
+    # 'Speed': '800 Mbps',
+    'Timeout': 10000,
+    # 'VideoMode': 'Format 7, Mode 0, 648 x 488',
+    'Width': 1280
 }
 
-flea3_fw_sequence_camera_attributes = {
-    'CameraAttributes::AutoExposure::Mode': 'Off',
-    'CameraAttributes::Brightness::Mode': 'Ignored',
-    'CameraAttributes::FrameRate::Mode': 'Off',
-    'CameraAttributes::Gain::Mode': 'Absolute',
-    'CameraAttributes::Gain::Value': '0.0',
-    'CameraAttributes::Gamma::Mode': 'Off',
-    # 'CameraAttributes::Pan::Mode': 'Ignored',
-    'CameraAttributes::Sharpness::Mode': 'Off',
-    'CameraAttributes::Shutter::Mode': 'Absolute',
-    'CameraAttributes::Shutter::Value': 40*us,
-    # 'CameraAttributes::Tilt::Mode': 'Ignored',
-    'CameraAttributes::Trigger::TriggerActivation': 'Level High',
-    'CameraAttributes::Trigger::TriggerMode': 'Mode 1',
-    'CameraAttributes::Trigger::TriggerParameter': 0,
-    'CameraAttributes::Trigger::TriggerSource': 'Source 0',
-    'CameraAttributes::TriggerDelay::Mode': 'Off'
+Flea3_USB_1_sequence_camera_attributes = {
+    # 'AutoExposure::Mode': 'Off',
+    # 'Brightness::Mode': 'Ignored',
+    # 'FrameRate::Mode': 'Off',
+    # 'Gain::Mode': 'Absolute',
+    # 'Gain::Value': '0.0',
+    # 'Gamma::Mode': 'Off',
+    # # 'Pan::Mode': 'Ignored',
+    # 'Sharpness::Mode': 'Off',
+    # 'Shutter::Mode': 'Absolute',
+    # 'Shutter::Value': 40*us,
+    # # 'Tilt::Mode': 'Ignored',
+    # 'Trigger::TriggerActivation': 'Level High',
+    # 'Trigger::TriggerMode': 'Mode 1',
+    # 'Trigger::TriggerParameter': 0,
+    # 'Trigger::TriggerSource': 'Source 0',
+    # 'TriggerDelay::Mode': 'Off'
 }
 
-flea3_fw_sequence_camera_attributes = {**flea3_fw_acquisition_attributes, **flea3_fw_sequence_camera_attributes}
+Flea3_USB_1_sequence_camera_attributes = {**Flea3_USB_1_acquisition_attributes, **Flea3_USB_1_sequence_camera_attributes}
 
 
-flea3_fw_manual_camera_attributes = {
-    'CameraAttributes::AutoExposure::Mode': 'Off',
-    'CameraAttributes::Brightness::Mode': 'Ignored',
-    'CameraAttributes::FrameRate::Mode': 'Off',
-    'CameraAttributes::Gain::Mode': 'Absolute',
-    'CameraAttributes::Gain::Value': '0.0',
-    'CameraAttributes::Gamma::Mode': 'Off',
-    # 'CameraAttributes::Pan::Mode': 'Ignored',
-    'CameraAttributes::Sharpness::Mode': 'Off',
-    'CameraAttributes::Shutter::Mode': 'Absolute',
-    'CameraAttributes::Shutter::Value': 1*ms,
-    # 'CameraAttributes::Tilt::Mode': 'Ignored',
-    'CameraAttributes::Trigger::TriggerActivation': 'Level High',
-    'CameraAttributes::Trigger::TriggerMode': 'Mode 3',
-    'CameraAttributes::Trigger::TriggerParameter': 1,
-    'CameraAttributes::Trigger::TriggerSource': 'Source 0',
-    'CameraAttributes::TriggerDelay::Mode': 'Off'
+Flea3_USB_1_manual_camera_attributes = {
+    # 'AutoExposure::Mode': 'Off',
+    # 'Brightness::Mode': 'Ignored',
+    # 'FrameRate::Mode': 'Off',
+    # 'Gain::Mode': 'Absolute',
+    # 'Gain::Value': '0.0',
+    # 'Gamma::Mode': 'Off',
+    # # 'Pan::Mode': 'Ignored',
+    # 'Sharpness::Mode': 'Off',
+    # 'Shutter::Mode': 'Absolute',
+    # 'Shutter::Value': 1*ms,
+    # # 'Tilt::Mode': 'Ignored',
+    # 'Trigger::TriggerActivation': 'Level High',
+    # 'Trigger::TriggerMode': 'Mode 3',
+    # 'Trigger::TriggerParameter': 1,
+    # 'Trigger::TriggerSource': 'Source 0',
+    # 'TriggerDelay::Mode': 'Off'
 }
 
-flea3_fw_manual_camera_attributes = {**flea3_fw_acquisition_attributes, **flea3_fw_manual_camera_attributes}
+Flea3_USB_1_manual_camera_attributes = {**Flea3_USB_1_acquisition_attributes, **Flea3_USB_1_manual_camera_attributes}
+
+
+Flea3_USB_2_acquisition_attributes = {
+    'ImageFormatControl::Height': 1024,
+    'OffsetX': 0,
+    'OffsetY': 0,
+    'OutputImageType': 'Auto',
+    # 'PacketSize': 5184,
+    'PixelFormat': 'Mono 8',
+    # 'Speed': '800 Mbps',
+    'Timeout': 10000,
+    # 'VideoMode': 'Format 7, Mode 0, 648 x 488',
+    'Width': 1280
+}
+
+Flea3_USB_2_sequence_camera_attributes = {
+    # 'AutoExposure::Mode': 'Off',
+    # 'Brightness::Mode': 'Ignored',
+    # 'FrameRate::Mode': 'Off',
+    # 'Gain::Mode': 'Absolute',
+    # 'Gain::Value': '0.0',
+    # 'Gamma::Mode': 'Off',
+    # # 'Pan::Mode': 'Ignored',
+    # 'Sharpness::Mode': 'Off',
+    # 'Shutter::Mode': 'Absolute',
+    # 'Shutter::Value': 40*us,
+    # # 'Tilt::Mode': 'Ignored',
+    # 'Trigger::TriggerActivation': 'Level High',
+    # 'Trigger::TriggerMode': 'Mode 1',
+    # 'Trigger::TriggerParameter': 0,
+    # 'Trigger::TriggerSource': 'Source 0',
+    # 'TriggerDelay::Mode': 'Off'
+}
+
+Flea3_USB_2_sequence_camera_attributes = {**Flea3_USB_2_acquisition_attributes, **Flea3_USB_2_sequence_camera_attributes}
+
+
+Flea3_USB_2_manual_camera_attributes = {
+    # 'AutoExposure::Mode': 'Off',
+    # 'Brightness::Mode': 'Ignored',
+    # 'FrameRate::Mode': 'Off',
+    # 'Gain::Mode': 'Absolute',
+    # 'Gain::Value': '0.0',
+    # 'Gamma::Mode': 'Off',
+    # # 'Pan::Mode': 'Ignored',
+    # 'Sharpness::Mode': 'Off',
+    # 'Shutter::Mode': 'Absolute',
+    # 'Shutter::Value': 1*ms,
+    # # 'Tilt::Mode': 'Ignored',
+    # 'Trigger::TriggerActivation': 'Level High',
+    # 'Trigger::TriggerMode': 'Mode 3',
+    # 'Trigger::TriggerParameter': 1,
+    # 'Trigger::TriggerSource': 'Source 0',
+    # 'TriggerDelay::Mode': 'Off'
+}
+
+Flea3_USB_2_manual_camera_attributes = {**Flea3_USB_2_acquisition_attributes, **Flea3_USB_2_manual_camera_attributes}
 
 
 # IMAQdxCamera(
@@ -365,18 +437,35 @@ flea3_fw_manual_camera_attributes = {**flea3_fw_acquisition_attributes, **flea3_
 #    manual_mode_camera_attributes=flea2_fw_manual_camera_attributes
 # )
 
-# IMAQdxCamera(
-#    name ='Flea3_FW',
-#    parent_device=flea3_trigger,
-#    connection='trigger',
-#    trigger_duration=10*us,
+IMAQdxCamera(
+   name ='Flea3_USB_1',
+   parent_device=flea3_trigger,
+   connection='trigger',
+   trigger_duration=10*us,
 #    serial_number='B09D01009014F1',
-#    trigger_edge_type='rising',
-# #    worker= localhost,
-# #    orientation = 'grating',
-#    camera_attributes=flea3_fw_sequence_camera_attributes,
-#    manual_mode_camera_attributes=flea3_fw_manual_camera_attributes
-# )
+    serial_number='1E1001539FC5',
+   trigger_edge_type='rising',
+#    worker= localhost,
+#    orientation = 'grating',
+   camera_attributes=Flea3_USB_1_sequence_camera_attributes,
+   manual_mode_camera_attributes=Flea3_USB_1_manual_camera_attributes
+)
+
+
+IMAQdxCamera(
+   name ='Flea3_USB_2',
+   parent_device=flea3_trigger,
+   connection='trigger',
+   trigger_duration=10*us,
+#    serial_number='B09D01009014F1',
+    serial_number='1E10015491E3',
+   trigger_edge_type='rising',
+#    worker= localhost,
+#    orientation = 'grating',
+   camera_attributes=Flea3_USB_2_sequence_camera_attributes,
+   manual_mode_camera_attributes=Flea3_USB_2_manual_camera_attributes
+)
+
 
 andor_attributes = {
     'trigger': 'external', 

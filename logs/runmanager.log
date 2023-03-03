@@ -5701,3 +5701,460 @@
 2023-02-08 17:32:48,904 INFO runmanager: Making h5 files
 2023-02-08 17:32:48,919 DEBUG runmanager: <generator object make_run_files at 0x000001F8216E1B30>
 2023-02-08 17:32:48,919 INFO runmanager: end engage
+2023-02-09 10:33:46,402 INFO runmanager: 
+
+===============starting===============
+
+2023-02-09 10:33:47,243 WARNING runmanager: c:\users\rbybt\labscript-suite\runmanager\runmanager\__main__.py:226: DeprecationWarning: an integer is required (got type Alignment).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  painter.drawItemPixmap(tabRect, alignment, icon)
+
+2023-02-09 10:33:47,310 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: RF_wait_time 
+2023-02-09 10:33:47,310 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: RF_wait_time
+2023-02-09 10:33:47,310 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: cooling_aom_ttl_dur 
+2023-02-09 10:33:47,311 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: cooling_aom_ttl_dur
+2023-02-09 10:33:47,311 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: repeats 
+2023-02-09 10:33:47,311 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: repeats
+2023-02-09 10:33:47,343 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: PDH_mod_freq 
+2023-02-09 10:33:47,344 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: PDH_mod_freq
+2023-02-09 10:33:47,344 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: delta_f 
+2023-02-09 10:33:47,344 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: delta_f
+2023-02-09 10:33:47,344 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: fc_ramp_time 
+2023-02-09 10:33:47,344 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: fc_ramp_time
+2023-02-09 10:33:47,344 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: n_steps 
+2023-02-09 10:33:47,345 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: n_steps
+2023-02-09 10:33:47,345 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_start 
+2023-02-09 10:33:47,345 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_start
+2023-02-09 10:33:47,345 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_stop 
+2023-02-09 10:33:47,345 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_stop
+2023-02-09 10:33:47,345 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_time 
+2023-02-09 10:33:47,346 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_time
+2023-02-09 10:33:47,346 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: sample_rate 
+2023-02-09 10:33:47,346 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: sample_rate
+2023-02-09 10:33:47,346 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: scan_rate 
+2023-02-09 10:33:47,346 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: scan_rate
+2023-02-09 10:33:47,346 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: step_size 
+2023-02-09 10:33:47,347 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: step_size
+2023-02-09 10:33:47,347 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: total_scan_time 
+2023-02-09 10:33:47,347 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: total_scan_time
+2023-02-09 10:33:47,347 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: wait_time 
+2023-02-09 10:33:47,347 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: wait_time
+2023-02-09 10:33:47,401 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbcoolF0 
+2023-02-09 10:33:47,402 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbcoolF0
+2023-02-09 10:33:47,402 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbcoolJumpF 
+2023-02-09 10:33:47,402 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbcoolJumpF
+2023-02-09 10:33:47,402 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbrepumpF0 
+2023-02-09 10:33:47,402 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbrepumpF0
+2023-02-09 10:33:47,402 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbrepumpJumpF 
+2023-02-09 10:33:47,403 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbrepumpJumpF
+2023-02-09 10:33:50,240 WARNING runmanager: c:\users\rbybt\labscript-suite\runmanager\runmanager\__main__.py:226: DeprecationWarning: an integer is required (got type Alignment).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  painter.drawItemPixmap(tabRect, alignment, icon)
+
+2023-02-09 10:42:19,446 INFO runmanager: Engage
+2023-02-09 10:42:19,446 INFO runmanager: Parsing globals...
+2023-02-09 10:42:19,474 INFO runmanager: Making h5 files
+2023-02-09 10:42:19,488 DEBUG runmanager: <generator object make_run_files at 0x00000242070AB5F0>
+2023-02-09 10:42:19,488 INFO runmanager: end engage
+2023-02-10 15:21:38,962 INFO runmanager: 
+
+===============starting===============
+
+2023-02-10 15:21:39,813 WARNING runmanager: c:\users\rbybt\labscript-suite\runmanager\runmanager\__main__.py:226: DeprecationWarning: an integer is required (got type Alignment).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  painter.drawItemPixmap(tabRect, alignment, icon)
+
+2023-02-10 15:21:39,880 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: RF_wait_time 
+2023-02-10 15:21:39,880 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: RF_wait_time
+2023-02-10 15:21:39,880 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: cooling_aom_ttl_dur 
+2023-02-10 15:21:39,880 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: cooling_aom_ttl_dur
+2023-02-10 15:21:39,881 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: repeats 
+2023-02-10 15:21:39,881 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: repeats
+2023-02-10 15:21:39,911 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: PDH_mod_freq 
+2023-02-10 15:21:39,912 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: PDH_mod_freq
+2023-02-10 15:21:39,912 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: delta_f 
+2023-02-10 15:21:39,912 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: delta_f
+2023-02-10 15:21:39,912 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: fc_ramp_time 
+2023-02-10 15:21:39,912 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: fc_ramp_time
+2023-02-10 15:21:39,913 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: n_steps 
+2023-02-10 15:21:39,913 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: n_steps
+2023-02-10 15:21:39,913 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_start 
+2023-02-10 15:21:39,913 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_start
+2023-02-10 15:21:39,913 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_stop 
+2023-02-10 15:21:39,913 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_stop
+2023-02-10 15:21:39,914 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_time 
+2023-02-10 15:21:39,914 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_time
+2023-02-10 15:21:39,914 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: sample_rate 
+2023-02-10 15:21:39,914 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: sample_rate
+2023-02-10 15:21:39,914 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: scan_rate 
+2023-02-10 15:21:39,914 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: scan_rate
+2023-02-10 15:21:39,915 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: step_size 
+2023-02-10 15:21:39,915 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: step_size
+2023-02-10 15:21:39,915 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: total_scan_time 
+2023-02-10 15:21:39,915 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: total_scan_time
+2023-02-10 15:21:39,915 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: wait_time 
+2023-02-10 15:21:39,916 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: wait_time
+2023-02-10 15:21:39,971 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbcoolF0 
+2023-02-10 15:21:39,971 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbcoolF0
+2023-02-10 15:21:39,971 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbcoolJumpF 
+2023-02-10 15:21:39,971 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbcoolJumpF
+2023-02-10 15:21:39,972 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbrepumpF0 
+2023-02-10 15:21:39,972 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbrepumpF0
+2023-02-10 15:21:39,972 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbrepumpJumpF 
+2023-02-10 15:21:39,972 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbrepumpJumpF
+2023-02-10 15:21:44,120 WARNING runmanager: c:\users\rbybt\labscript-suite\runmanager\runmanager\__main__.py:226: DeprecationWarning: an integer is required (got type Alignment).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  painter.drawItemPixmap(tabRect, alignment, icon)
+
+2023-02-10 15:28:02,476 INFO runmanager: Engage
+2023-02-10 15:28:02,476 INFO runmanager: Parsing globals...
+2023-02-10 15:28:02,504 INFO runmanager: Making h5 files
+2023-02-10 15:28:02,519 DEBUG runmanager: <generator object make_run_files at 0x000001FCA71CA5F0>
+2023-02-10 15:28:02,519 INFO runmanager: end engage
+2023-02-10 15:29:09,722 INFO runmanager: Engage
+2023-02-10 15:29:09,722 INFO runmanager: Parsing globals...
+2023-02-10 15:29:09,750 INFO runmanager: Making h5 files
+2023-02-10 15:29:09,765 DEBUG runmanager: <generator object make_run_files at 0x000001FCA71CA580>
+2023-02-10 15:29:09,765 INFO runmanager: end engage
+2023-02-10 15:31:24,400 INFO runmanager: Engage
+2023-02-10 15:31:24,401 INFO runmanager: Parsing globals...
+2023-02-10 15:31:24,428 INFO runmanager: Making h5 files
+2023-02-10 15:31:24,442 DEBUG runmanager: <generator object make_run_files at 0x000001FCA71CA6D0>
+2023-02-10 15:31:24,442 INFO runmanager: end engage
+2023-02-10 15:33:41,687 INFO runmanager: Engage
+2023-02-10 15:33:41,687 INFO runmanager: Parsing globals...
+2023-02-10 15:33:41,715 INFO runmanager: Making h5 files
+2023-02-10 15:33:41,730 DEBUG runmanager: <generator object make_run_files at 0x000001FCA71CA740>
+2023-02-10 15:33:41,730 INFO runmanager: end engage
+2023-02-10 15:35:27,556 INFO runmanager: Engage
+2023-02-10 15:35:27,556 INFO runmanager: Parsing globals...
+2023-02-10 15:35:27,585 INFO runmanager: Making h5 files
+2023-02-10 15:35:27,599 DEBUG runmanager: <generator object make_run_files at 0x000001FCA71CAB30>
+2023-02-10 15:35:27,599 INFO runmanager: end engage
+2023-02-10 15:36:27,113 INFO runmanager: Engage
+2023-02-10 15:36:27,113 INFO runmanager: Parsing globals...
+2023-02-10 15:36:27,142 INFO runmanager: Making h5 files
+2023-02-10 15:36:27,157 DEBUG runmanager: <generator object make_run_files at 0x000001FCA71CA510>
+2023-02-10 15:36:27,157 INFO runmanager: end engage
+2023-02-14 15:53:31,011 INFO runmanager: 
+
+===============starting===============
+
+2023-02-14 15:53:31,467 ERROR runmanager: Got an exception:
+Traceback (most recent call last):
+  File "c:\users\rbybt\labscript-suite\runmanager\runmanager\__main__.py", line 3708, in <module>
+    remote_server = RemoteServer()
+  File "c:\users\rbybt\labscript-suite\runmanager\runmanager\__main__.py", line 3522, in __init__
+    ZMQServer.__init__(self, port=port)
+  File "c:\users\rbybt\labscript-suite\labscript-utils\labscript_utils\ls_zprocess.py", line 190, in __init__
+    zprocess.ZMQServer.__init__(
+  File "C:\Users\RbYbT\anaconda3\envs\P38\lib\site-packages\zprocess\clientserver.py", line 483, in __init__
+    _ZMQServer.__init__(self, port, dtype=dtype, pull_only=pull_only,
+  File "C:\Users\RbYbT\anaconda3\envs\P38\lib\site-packages\zprocess\clientserver.py", line 137, in __init__
+    self.sock.bind('%s:%d' % (self.bind_address, self.port))
+  File "C:\Users\RbYbT\anaconda3\envs\P38\lib\site-packages\zprocess\security.py", line 214, in bind
+    return self._bind_or_connect(addr, bind=True)
+  File "C:\Users\RbYbT\anaconda3\envs\P38\lib\site-packages\zprocess\security.py", line 201, in _bind_or_connect
+    result = method(self, addr)
+  File "C:\Users\RbYbT\anaconda3\envs\P38\lib\site-packages\zmq\sugar\socket.py", line 229, in bind
+    super().bind(addr)
+  File "zmq\backend\cython\socket.pyx", line 562, in zmq.backend.cython.socket.Socket.bind
+  File "zmq\backend\cython\checkrc.pxd", line 28, in zmq.backend.cython.checkrc._check_rc
+zmq.error.ZMQError: Address in use
+
+2023-02-14 15:53:47,239 INFO runmanager: 
+
+===============starting===============
+
+2023-02-14 15:53:48,072 WARNING runmanager: c:\users\rbybt\labscript-suite\runmanager\runmanager\__main__.py:226: DeprecationWarning: an integer is required (got type Alignment).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  painter.drawItemPixmap(tabRect, alignment, icon)
+
+2023-02-14 15:53:48,137 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: RF_wait_time 
+2023-02-14 15:53:48,137 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: RF_wait_time
+2023-02-14 15:53:48,137 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: cooling_aom_ttl_dur 
+2023-02-14 15:53:48,138 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: cooling_aom_ttl_dur
+2023-02-14 15:53:48,138 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: repeats 
+2023-02-14 15:53:48,138 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: repeats
+2023-02-14 15:53:48,171 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: PDH_mod_freq 
+2023-02-14 15:53:48,171 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: PDH_mod_freq
+2023-02-14 15:53:48,171 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: delta_f 
+2023-02-14 15:53:48,171 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: delta_f
+2023-02-14 15:53:48,171 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: fc_ramp_time 
+2023-02-14 15:53:48,172 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: fc_ramp_time
+2023-02-14 15:53:48,172 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: n_steps 
+2023-02-14 15:53:48,172 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: n_steps
+2023-02-14 15:53:48,172 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_start 
+2023-02-14 15:53:48,172 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_start
+2023-02-14 15:53:48,172 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_stop 
+2023-02-14 15:53:48,173 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_stop
+2023-02-14 15:53:48,173 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_time 
+2023-02-14 15:53:48,173 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_time
+2023-02-14 15:53:48,173 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: sample_rate 
+2023-02-14 15:53:48,173 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: sample_rate
+2023-02-14 15:53:48,173 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: scan_rate 
+2023-02-14 15:53:48,174 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: scan_rate
+2023-02-14 15:53:48,174 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: step_size 
+2023-02-14 15:53:48,174 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: step_size
+2023-02-14 15:53:48,174 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: total_scan_time 
+2023-02-14 15:53:48,174 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: total_scan_time
+2023-02-14 15:53:48,174 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: wait_time 
+2023-02-14 15:53:48,175 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: wait_time
+2023-02-14 15:53:48,232 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbcoolF0 
+2023-02-14 15:53:48,232 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbcoolF0
+2023-02-14 15:53:48,232 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbcoolJumpF 
+2023-02-14 15:53:48,232 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbcoolJumpF
+2023-02-14 15:53:48,233 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbrepumpF0 
+2023-02-14 15:53:48,233 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbrepumpF0
+2023-02-14 15:53:48,233 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbrepumpJumpF 
+2023-02-14 15:53:48,233 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbrepumpJumpF
+2023-02-14 15:53:49,972 WARNING runmanager: c:\users\rbybt\labscript-suite\runmanager\runmanager\__main__.py:226: DeprecationWarning: an integer is required (got type Alignment).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  painter.drawItemPixmap(tabRect, alignment, icon)
+
+2023-02-14 15:54:30,273 INFO runmanager: Engage
+2023-02-14 15:54:30,274 INFO runmanager: Parsing globals...
+2023-02-14 15:54:30,303 INFO runmanager: Making h5 files
+2023-02-14 15:54:30,318 DEBUG runmanager: <generator object make_run_files at 0x00000219FA384F90>
+2023-02-14 15:54:30,318 INFO runmanager: end engage
+2023-02-14 15:57:52,004 INFO runmanager: 
+
+===============starting===============
+
+2023-02-14 15:57:52,913 WARNING runmanager: c:\users\rbybt\labscript-suite\runmanager\runmanager\__main__.py:226: DeprecationWarning: an integer is required (got type Alignment).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  painter.drawItemPixmap(tabRect, alignment, icon)
+
+2023-02-14 15:57:52,978 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: RF_wait_time 
+2023-02-14 15:57:52,978 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: RF_wait_time
+2023-02-14 15:57:52,978 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: cooling_aom_ttl_dur 
+2023-02-14 15:57:52,978 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: cooling_aom_ttl_dur
+2023-02-14 15:57:52,979 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: repeats 
+2023-02-14 15:57:52,979 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: repeats
+2023-02-14 15:57:53,011 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: PDH_mod_freq 
+2023-02-14 15:57:53,011 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: PDH_mod_freq
+2023-02-14 15:57:53,011 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: delta_f 
+2023-02-14 15:57:53,011 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: delta_f
+2023-02-14 15:57:53,012 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: fc_ramp_time 
+2023-02-14 15:57:53,012 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: fc_ramp_time
+2023-02-14 15:57:53,012 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: n_steps 
+2023-02-14 15:57:53,012 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: n_steps
+2023-02-14 15:57:53,012 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_start 
+2023-02-14 15:57:53,012 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_start
+2023-02-14 15:57:53,013 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_stop 
+2023-02-14 15:57:53,013 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_stop
+2023-02-14 15:57:53,013 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_time 
+2023-02-14 15:57:53,013 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_time
+2023-02-14 15:57:53,013 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: sample_rate 
+2023-02-14 15:57:53,013 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: sample_rate
+2023-02-14 15:57:53,013 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: scan_rate 
+2023-02-14 15:57:53,014 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: scan_rate
+2023-02-14 15:57:53,014 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: step_size 
+2023-02-14 15:57:53,014 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: step_size
+2023-02-14 15:57:53,014 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: total_scan_time 
+2023-02-14 15:57:53,014 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: total_scan_time
+2023-02-14 15:57:53,015 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: wait_time 
+2023-02-14 15:57:53,015 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: wait_time
+2023-02-14 15:57:53,069 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbcoolF0 
+2023-02-14 15:57:53,070 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbcoolF0
+2023-02-14 15:57:53,070 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbcoolJumpF 
+2023-02-14 15:57:53,070 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbcoolJumpF
+2023-02-14 15:57:53,070 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbrepumpF0 
+2023-02-14 15:57:53,070 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbrepumpF0
+2023-02-14 15:57:53,071 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbrepumpJumpF 
+2023-02-14 15:57:53,071 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbrepumpJumpF
+2023-02-14 15:57:57,547 INFO runmanager: Engage
+2023-02-14 15:57:57,547 INFO runmanager: Parsing globals...
+2023-02-14 15:57:57,575 INFO runmanager: Making h5 files
+2023-02-14 15:57:57,586 DEBUG runmanager: <generator object make_run_files at 0x000002B07B76B740>
+2023-02-14 15:57:57,586 INFO runmanager: end engage
+2023-02-14 15:58:00,893 WARNING runmanager: c:\users\rbybt\labscript-suite\runmanager\runmanager\__main__.py:226: DeprecationWarning: an integer is required (got type Alignment).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  painter.drawItemPixmap(tabRect, alignment, icon)
+
+2023-02-14 16:00:28,742 INFO runmanager: Engage
+2023-02-14 16:00:28,742 INFO runmanager: Parsing globals...
+2023-02-14 16:00:28,769 INFO runmanager: Making h5 files
+2023-02-14 16:00:28,780 DEBUG runmanager: <generator object make_run_files at 0x000002B07B76BC80>
+2023-02-14 16:00:28,780 INFO runmanager: end engage
+2023-02-14 16:00:34,229 INFO runmanager: 
+
+===============starting===============
+
+2023-02-14 16:00:35,056 WARNING runmanager: c:\users\rbybt\labscript-suite\runmanager\runmanager\__main__.py:226: DeprecationWarning: an integer is required (got type Alignment).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  painter.drawItemPixmap(tabRect, alignment, icon)
+
+2023-02-14 16:00:35,126 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: RF_wait_time 
+2023-02-14 16:00:35,127 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: RF_wait_time
+2023-02-14 16:00:35,127 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: cooling_aom_ttl_dur 
+2023-02-14 16:00:35,127 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: cooling_aom_ttl_dur
+2023-02-14 16:00:35,127 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: repeats 
+2023-02-14 16:00:35,128 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: repeats
+2023-02-14 16:00:35,160 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: PDH_mod_freq 
+2023-02-14 16:00:35,161 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: PDH_mod_freq
+2023-02-14 16:00:35,161 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: delta_f 
+2023-02-14 16:00:35,161 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: delta_f
+2023-02-14 16:00:35,161 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: fc_ramp_time 
+2023-02-14 16:00:35,161 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: fc_ramp_time
+2023-02-14 16:00:35,162 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: n_steps 
+2023-02-14 16:00:35,162 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: n_steps
+2023-02-14 16:00:35,162 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_start 
+2023-02-14 16:00:35,162 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_start
+2023-02-14 16:00:35,162 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_stop 
+2023-02-14 16:00:35,162 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_stop
+2023-02-14 16:00:35,163 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_time 
+2023-02-14 16:00:35,163 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_time
+2023-02-14 16:00:35,163 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: sample_rate 
+2023-02-14 16:00:35,163 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: sample_rate
+2023-02-14 16:00:35,163 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: scan_rate 
+2023-02-14 16:00:35,163 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: scan_rate
+2023-02-14 16:00:35,164 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: step_size 
+2023-02-14 16:00:35,164 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: step_size
+2023-02-14 16:00:35,164 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: total_scan_time 
+2023-02-14 16:00:35,164 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: total_scan_time
+2023-02-14 16:00:35,164 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: wait_time 
+2023-02-14 16:00:35,164 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: wait_time
+2023-02-14 16:00:35,220 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbcoolF0 
+2023-02-14 16:00:35,221 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbcoolF0
+2023-02-14 16:00:35,221 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbcoolJumpF 
+2023-02-14 16:00:35,221 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbcoolJumpF
+2023-02-14 16:00:35,221 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbrepumpF0 
+2023-02-14 16:00:35,221 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbrepumpF0
+2023-02-14 16:00:35,221 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbrepumpJumpF 
+2023-02-14 16:00:35,222 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbrepumpJumpF
+2023-02-14 16:00:38,771 INFO runmanager: Engage
+2023-02-14 16:00:38,771 INFO runmanager: Parsing globals...
+2023-02-14 16:00:38,799 INFO runmanager: Making h5 files
+2023-02-14 16:00:38,810 DEBUG runmanager: <generator object make_run_files at 0x000001F37131A740>
+2023-02-14 16:00:38,810 INFO runmanager: end engage
+2023-02-14 16:00:39,431 WARNING runmanager: c:\users\rbybt\labscript-suite\runmanager\runmanager\__main__.py:226: DeprecationWarning: an integer is required (got type Alignment).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  painter.drawItemPixmap(tabRect, alignment, icon)
+
+2023-02-14 16:04:45,760 INFO runmanager: Engage
+2023-02-14 16:04:45,760 INFO runmanager: Parsing globals...
+2023-02-14 16:04:45,789 INFO runmanager: Making h5 files
+2023-02-14 16:04:45,799 DEBUG runmanager: <generator object make_run_files at 0x000001F37131A660>
+2023-02-14 16:04:45,799 INFO runmanager: end engage
+2023-02-14 16:43:14,875 INFO runmanager: Engage
+2023-02-14 16:43:14,876 INFO runmanager: Parsing globals...
+2023-02-14 16:43:14,904 INFO runmanager: Making h5 files
+2023-02-14 16:43:14,914 DEBUG runmanager: <generator object make_run_files at 0x000001F37131A5F0>
+2023-02-14 16:43:14,915 INFO runmanager: end engage
+2023-02-14 17:25:18,286 INFO runmanager: 
+
+===============starting===============
+
+2023-02-14 17:25:19,054 WARNING runmanager: c:\users\rbybt\labscript-suite\runmanager\runmanager\__main__.py:226: DeprecationWarning: an integer is required (got type Alignment).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  painter.drawItemPixmap(tabRect, alignment, icon)
+
+2023-02-14 17:25:19,124 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: RF_wait_time 
+2023-02-14 17:25:19,124 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: RF_wait_time
+2023-02-14 17:25:19,124 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: cooling_aom_ttl_dur 
+2023-02-14 17:25:19,125 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: cooling_aom_ttl_dur
+2023-02-14 17:25:19,125 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: repeats 
+2023-02-14 17:25:19,125 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: repeats
+2023-02-14 17:25:19,161 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: PDH_mod_freq 
+2023-02-14 17:25:19,162 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: PDH_mod_freq
+2023-02-14 17:25:19,162 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: delta_f 
+2023-02-14 17:25:19,162 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: delta_f
+2023-02-14 17:25:19,162 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: fc_ramp_time 
+2023-02-14 17:25:19,163 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: fc_ramp_time
+2023-02-14 17:25:19,163 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: n_steps 
+2023-02-14 17:25:19,163 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: n_steps
+2023-02-14 17:25:19,163 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_start 
+2023-02-14 17:25:19,163 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_start
+2023-02-14 17:25:19,163 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_stop 
+2023-02-14 17:25:19,164 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_stop
+2023-02-14 17:25:19,164 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_time 
+2023-02-14 17:25:19,164 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_time
+2023-02-14 17:25:19,164 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: sample_rate 
+2023-02-14 17:25:19,164 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: sample_rate
+2023-02-14 17:25:19,164 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: scan_rate 
+2023-02-14 17:25:19,165 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: scan_rate
+2023-02-14 17:25:19,165 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: step_size 
+2023-02-14 17:25:19,165 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: step_size
+2023-02-14 17:25:19,165 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: total_scan_time 
+2023-02-14 17:25:19,165 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: total_scan_time
+2023-02-14 17:25:19,165 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: wait_time 
+2023-02-14 17:25:19,166 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: wait_time
+2023-02-14 17:25:19,221 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbcoolF0 
+2023-02-14 17:25:19,222 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbcoolF0
+2023-02-14 17:25:19,222 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbcoolJumpF 
+2023-02-14 17:25:19,222 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbcoolJumpF
+2023-02-14 17:25:19,222 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbrepumpF0 
+2023-02-14 17:25:19,222 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbrepumpF0
+2023-02-14 17:25:19,222 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbrepumpJumpF 
+2023-02-14 17:25:19,223 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbrepumpJumpF
+2023-02-14 17:25:21,277 WARNING runmanager: c:\users\rbybt\labscript-suite\runmanager\runmanager\__main__.py:226: DeprecationWarning: an integer is required (got type Alignment).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  painter.drawItemPixmap(tabRect, alignment, icon)
+
+2023-02-14 17:49:34,438 INFO runmanager: Engage
+2023-02-14 17:49:34,439 INFO runmanager: Parsing globals...
+2023-02-14 17:49:34,471 INFO runmanager: Making h5 files
+2023-02-14 17:49:34,486 DEBUG runmanager: <generator object make_run_files at 0x000002A76E2DABA0>
+2023-02-14 17:49:34,486 INFO runmanager: end engage
+2023-02-14 17:58:38,709 INFO runmanager: Engage
+2023-02-14 17:58:38,710 INFO runmanager: Parsing globals...
+2023-02-14 17:58:38,740 INFO runmanager: Making h5 files
+2023-02-14 17:58:38,754 DEBUG runmanager: <generator object make_run_files at 0x000002A76E2DA890>
+2023-02-14 17:58:38,754 INFO runmanager: end engage
+2023-02-14 17:59:46,129 INFO runmanager: Engage
+2023-02-14 17:59:46,129 INFO runmanager: Parsing globals...
+2023-02-14 17:59:46,158 INFO runmanager: Making h5 files
+2023-02-14 17:59:46,173 DEBUG runmanager: <generator object make_run_files at 0x000002A76E2DA5F0>
+2023-02-14 17:59:46,173 INFO runmanager: end engage
+2023-02-14 17:59:59,943 INFO runmanager: Engage
+2023-02-14 17:59:59,943 INFO runmanager: Parsing globals...
+2023-02-14 17:59:59,971 INFO runmanager: Making h5 files
+2023-02-14 17:59:59,985 DEBUG runmanager: <generator object make_run_files at 0x000002A76E2DA7B0>
+2023-02-14 17:59:59,985 INFO runmanager: end engage
+2023-02-14 18:00:18,313 INFO runmanager: Engage
+2023-02-14 18:00:18,314 INFO runmanager: Parsing globals...
+2023-02-14 18:00:18,335 INFO runmanager: Making h5 files
+2023-02-14 18:00:18,350 DEBUG runmanager: <generator object make_run_files at 0x000002A76E2DA890>
+2023-02-14 18:00:18,350 INFO runmanager: end engage
+2023-02-14 18:00:45,314 INFO runmanager: Engage
+2023-02-14 18:00:45,314 INFO runmanager: Parsing globals...
+2023-02-14 18:00:45,341 INFO runmanager: Making h5 files
+2023-02-14 18:00:45,356 DEBUG runmanager: <generator object make_run_files at 0x000002A76E2DAC80>
+2023-02-14 18:00:45,356 INFO runmanager: end engage
+2023-02-15 10:06:01,705 INFO runmanager: 
+
+===============starting===============
+
+2023-02-15 10:06:02,513 WARNING runmanager: c:\users\rbybt\labscript-suite\runmanager\runmanager\__main__.py:226: DeprecationWarning: an integer is required (got type Alignment).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  painter.drawItemPixmap(tabRect, alignment, icon)
+
+2023-02-15 10:06:02,587 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: RF_wait_time 
+2023-02-15 10:06:02,587 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: RF_wait_time
+2023-02-15 10:06:02,587 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: cooling_aom_ttl_dur 
+2023-02-15 10:06:02,587 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: cooling_aom_ttl_dur
+2023-02-15 10:06:02,588 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - make global row: repeats 
+2023-02-15 10:06:02,588 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:imaging - check for boolean values: repeats
+2023-02-15 10:06:02,624 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: PDH_mod_freq 
+2023-02-15 10:06:02,624 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: PDH_mod_freq
+2023-02-15 10:06:02,624 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: delta_f 
+2023-02-15 10:06:02,624 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: delta_f
+2023-02-15 10:06:02,625 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: fc_ramp_time 
+2023-02-15 10:06:02,625 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: fc_ramp_time
+2023-02-15 10:06:02,625 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: n_steps 
+2023-02-15 10:06:02,625 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: n_steps
+2023-02-15 10:06:02,625 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_start 
+2023-02-15 10:06:02,625 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_start
+2023-02-15 10:06:02,626 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_stop 
+2023-02-15 10:06:02,626 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_stop
+2023-02-15 10:06:02,626 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: ramp_time 
+2023-02-15 10:06:02,626 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: ramp_time
+2023-02-15 10:06:02,626 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: sample_rate 
+2023-02-15 10:06:02,626 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: sample_rate
+2023-02-15 10:06:02,627 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: scan_rate 
+2023-02-15 10:06:02,627 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: scan_rate
+2023-02-15 10:06:02,627 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: step_size 
+2023-02-15 10:06:02,627 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: step_size
+2023-02-15 10:06:02,627 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: total_scan_time 
+2023-02-15 10:06:02,627 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: total_scan_time
+2023-02-15 10:06:02,628 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - make global row: wait_time 
+2023-02-15 10:06:02,628 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:TCPDH parameters - check for boolean values: wait_time
+2023-02-15 10:06:02,684 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbcoolF0 
+2023-02-15 10:06:02,685 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbcoolF0
+2023-02-15 10:06:02,685 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbcoolJumpF 
+2023-02-15 10:06:02,685 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbcoolJumpF
+2023-02-15 10:06:02,685 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbrepumpF0 
+2023-02-15 10:06:02,685 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbrepumpF0
+2023-02-15 10:06:02,685 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - make global row: RbrepumpJumpF 
+2023-02-15 10:06:02,686 DEBUG runmanager: \\rbybcontrolpc\Experiments\RbYbTweezer\quantum_efficiency_test_globals.h5:Rb MOT parameters - check for boolean values: RbrepumpJumpF
+2023-02-15 10:06:05,911 WARNING runmanager: c:\users\rbybt\labscript-suite\runmanager\runmanager\__main__.py:226: DeprecationWarning: an integer is required (got type Alignment).  Implicit conversion to integers using __int__ is deprecated, and may be removed in a future version of Python.
+  painter.drawItemPixmap(tabRect, alignment, icon)
+
